@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   body {
+      padding: 0;
+      margin: 0;
+   }
+
+   Header {
+      background-color: #cccccc;
+      padding: 10px;
+      height: 100px;
+   }
+
+   h2 {
+      color: green;
+   }
+
+   .articles {
+      position: relative;
+      height: 100vh;
+   }
+
+   .article-1 {
+      background-color: lightgray;
+      position: absolute;
+      margin: 0 25%;
+      z-index: -1;
+      height: 100%;
+      width: 50%;
+   }
+
+   .article-2 {
+      background-color: #ff824c;
+      float: right;
+      height: 50%;
+      width: 25%;
+   }
+
+   .article-3 {
+      background-color: #b5cbfb;
+      float: left;
+      height: 50%;
+      width: 25%;
+   }
+
+   p {
+      margin: 5px 20px;
+   }
+
+   footer {
+      background-color: #333333;
+      position: fixed;
+      padding: 15px 25px;
+      width: 99vw;
+      bottom: 0;
+      color: wheat;
+   }
+</style>
+
+<body>
+   <Header>
+      <h2>Header</h2>
+   </Header>
+   <div class="articles">
+      <article class="article-1">
+         <p>
+            <strong>1) Content here.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente
+            possimus dolore. Rerum nihil eum maxime quas itaque facilis ea earum! Neque labore nobis laborum veniam
+            molestiae officia aperiam quisquam. Lorem ipsum, consectetur adipisicing elit. Et praesentium eveniet neque
+            placeat distinctio debitis quidem aut itaque tempora, numquam minima doloribus, molestiae dolores quod?
+            Voluptates quam minima natus? Dolores. Lorem ipsum, consectetur adipisicing elit. Et praesentium eveniet
+            neque
+            placeat distinctio debitis quidem aut itaque tempora, numquam minima doloribus, molestiae dolores quod?
+            Voluptates quam minima natus? Dolores.
+         </p>
+      </article>
+      <article class="article-2">
+         <p>
+            <strong>2) Navigation here.</strong> Lorem ipsum, consectetur adipisicing elit. Et praesentium eveniet neque
+            placeat distinctio debitis quidem aut itaque tempora, numquam minima doloribus, molestiae dolores quod?
+            Voluptates quam minima natus? Dolores.
+         </p>
+      </article>
+      <article class="article-3">
+         <p>
+            <strong>3) More stuff here.</strong> Lorem ipsum, consectetur adipisicing elit. Et praesentium eveniet neque
+            placeat distinctio debitis quidem aut itaque tempora, numquam minima doloribus, molestiae dolores quod?
+            Voluptates quam minima natus? Dolores.
+         </p>
+      </article>
+   </div>
+   <footer>Here it goes the footer</footer>
+</body>
+
+</html>
